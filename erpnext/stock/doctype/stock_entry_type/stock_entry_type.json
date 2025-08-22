@@ -8,7 +8,8 @@
  "field_order": [
   "purpose",
   "add_to_transit",
-  "is_standard"
+  "is_standard",
+  "hidden"
  ],
  "fields": [
   {
@@ -32,12 +33,17 @@
    "default": "0",
    "fieldname": "is_standard",
    "fieldtype": "Check",
-   "label": "Is Standard",
-   "read_only": 1
+   "label": "Is Standard"
+  },
+  {
+   "default": "0",
+   "fieldname": "hidden",
+   "fieldtype": "Check",
+   "label": "Hidden"
   }
  ],
  "links": [],
- "modified": "2025-01-15 16:00:22.696958",
+ "modified": "2025-08-22 02:22:57.623299",
  "modified_by": "Administrator",
  "module": "Stock",
  "name": "Stock Entry Type",
@@ -86,6 +92,7 @@
   }
  ],
  "quick_entry": 1,
+ "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "ASC",
  "states": [],
