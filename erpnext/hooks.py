@@ -1,5 +1,5 @@
 app_name = "erpnext"
-app_title = "Forty ERP"
+app_title = "FORTY ERP"
 app_publisher = "Capital Project Ltd."
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
