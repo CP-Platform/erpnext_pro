@@ -1,6 +1,6 @@
 app_name = "erpnext"
-app_title = "Capital CNC"
-app_publisher = "Frappe Technologies Pvt. Ltd."
+app_title = "Forty ERP"
+app_publisher = "Capital Project Ltd."
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
